@@ -61,3 +61,11 @@ while number <= 5:
     number = number + 1
 
 print(total)
+
+marks = [70, 85, 60, 90, 75]
+
+total = 0
+while total < 100:
+    for mark in marks:
+        total = total + mark
+print(total)

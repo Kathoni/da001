@@ -65,7 +65,8 @@ print(total)
 marks = [70, 85, 60, 90, 75]
 
 total = 0
-while total < 100:
-    for mark in marks:
-        total = total + mark
+i = 0
+while i < len(marks):
+    total = total + marks[i]
+    i = i + 1
 print(total)
